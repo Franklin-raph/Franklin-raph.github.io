@@ -4,38 +4,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" 
     integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Document</title>
 </head>
 <body>
 
-       <!-- NAVBAR -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #0573c2;">
-        <a class="navbar-brand mx-3" href="#"><strong>Franklin Raphael</strong></a>
-        <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse mx-3" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link mx-2" href="#">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#">BLOG</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link mx-2" href="#">CONTACT</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- NAVBAR ENDS-->
+  <!-- NAVBAR -->
+  
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #0573c2;">
+     <div class="container">
+   <a class="navbar-brand mx-3" style="font-weight: bolder; font-size: 30px;" href="#"><strong>Franklin Raphael</strong></a>
+   <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+   aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse mx-3" id="navbarNavDropdown">
+     <ul class="navbar-nav ml-auto" style="font-weight: bolder;">
+       <li class="nav-item active">
+         <a class="nav-link mx-2" href="#">HOME</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link mx-2" href="#">ABOUT</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link mx-2" href="#">SERVICES</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link mx-2" href="#">WORKS</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link mx-2" href="#">CONTACT</a>
+       </li>
+     </ul>
+   </div>
+ </div>
+   </nav>
 
-      <!-- BACKGROUND IMAGE -->
-        <img src="images/bgimg.png" class="img-fluid">
-      <!-- BACKGROUND IMAGE ENDS-->
+ <!-- NAVBAR ENDS-->
+
+
+ <!-- BACKGROUND IMAGE -->
+
+ <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-ride="carousel">
+   <ol class="carousel-indicators">
+     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+   </ol>
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img class="d-block w-100" id="show_bg">
+       <div class="carousel-caption d-none d-md-block mb-5">
+         <h5 class="mb-5 display-4 animate__animated animate__fadeInDown animate__delay-0.7s" style="font-weight: bold;">Hello! I am Franklin Raphael</h5>
+         <p class="mb-5 animate__animated animate__fadeInUp animate__delay-0.9s">I am a fullstack web developer with alot of practical knowlege in web development from real world projects and side 
+           projects which helped me grow my skills in HTML, CSS, JAVASCRIPT, PYTHON, DJANGO, JQUERY, BOOTSTRAP</p>
+           <button class="btn btn-outline-success animate__animated animate__fadeInUp animate__delay-0.95s">Read More</button>
+       </div>
+     </div>
+     <div class="carousel-item">
+       <img class="d-block w-100" id="show_bg1">
+       <div class="carousel-caption d-none d-md-block mb-5">
+         <h5 class="mb-5 display-4 animate__animated animate__fadeInDown animate__delay-0.7s" style="font-weight: bold;">Let My Creativity Match Yours</h5>
+         <p class="mb-5 animate__animated animate__fadeInUp animate__delay-0.9s">I am very good at breaking down complex ideas of clients or my peers to help us 
+           achieve a common goal. Come let's work together to reach your goal</p>
+           <button class="btn btn-outline-success animate__animated animate__fadeInUp animate__delay-0.95s">Read More</button>
+       </div>
+     </div>
+     <div class="carousel-item">
+       <img class="d-block w-100" id="show_bg2">
+       <div class="carousel-caption d-none d-md-block mb-5">
+         <h5 class="mb-5 display-4 animate__animated animate__fadeInDown animate__delay-0.7s" style="font-weight: bold;">Do You Want To Build A Website?</h5>
+         <p class="mb-5 animate__animated animate__fadeInUp animate__delay-0.9s">I am qualified to build most websites you see online and expertly design your user interface to give your website vistors comfort in using your platform.
+            It also helps that i am a full stack developer, which basically means that i can make a full website for you without the help of another developer(two in one).</p>
+            <button class="btn btn-outline-success animate__animated animate__fadeInUp animate__delay-0.95s">Read More</button>
+       </div>
+     </div>
+     </div>
+   </div>
+   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     
+   </a>
+   <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     
+   </a>
+ </div>
+ </div>
+ </div>
+
+ <!-- BACKGROUND IMAGE ENDS-->
+
       <!-- JavaScript Bundle with Popper.js -->
       <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -43,5 +108,13 @@
   crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" 
 integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+<script src="libs/wow.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 </body>
 </html>
