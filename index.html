@@ -9,34 +9,36 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     
     <link rel="stylesheet" href="style.css" type="text/css">
-    <title>Document</title>
+    <title>Franklin Raphael | Portfolio</title>
 </head>
 <body>
 
   <!-- NAVBAR -->
-  
     <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color:#028a8a;">
      <div class="container">
    <a class="navbar-brand mx-3" style="font-weight: bolder; font-size: 20px;" href="#"><strong>Franklin Raphael</strong></a>
-   <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
-   aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-   </button>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-awesome fas fa-bars"></span>
+    <!-- <span class="navbar-toggler-awesome fas fa-times"></span> -->
+    <!-- <span class="navbar-toggler-icon"></span> -->
+</button>
    <div class="collapse navbar-collapse mx-3" id="navbarNavDropdown">
      <ul class="navbar-nav ml-auto" style="font-weight: bolder;">
        <li class="nav-item active">
-         <a class="nav-link mx-2" href="#">HOME</a>
+         <a class="nav-link mx-2 active" href="https://franklin-raph.github.io/#intro">HOME</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link mx-2" href="#">ABOUT</a>
+         <a class="nav-link mx-2" href="https://franklin-raph.github.io/#about">ABOUT</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link mx-2" href="#">SERVICES</a>
+         <a class="nav-link mx-2" href="https://franklin-raph.github.io/#services">SERVICES</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link mx-2" href="#">WORKS</a>
+         <a class="nav-link mx-2" href="https://franklin-raph.github.io/#works">WORKS</a>
        </li>
        <li class="nav-item">
          <a class="nav-link mx-2" href="#">CONTACT</a>
@@ -45,12 +47,10 @@
    </div>
  </div>
    </nav>
-
  <!-- NAVBAR ENDS-->
 
 
  <!-- BACKGROUND IMAGE -->
-
  <section id="intro">
  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
    <ol class="carousel-indicators">
@@ -96,27 +96,27 @@
      <span class="carousel-control-next-icon" aria-hidden="true"></span>
    </a>
  </section>
-
  <!-- BACKGROUND IMAGE ENDS -->
   
+
  <!-- ABOUT SECTION -->
-  
+ <section id="about">
  <div class="container">
-  <div class="text-center mt-5" style="font-size:45px; font-weight: bold; color: #028a8a;">ABOUT ME</div>
+  <div class="text-center mt-5 animate__animated animate__fadeInDown" style="font-size:45px; font-weight: bold; color: #028a8a;">ABOUT ME</div>
  
   <div class="container-fluid padding">
   <div class="row padding">
    <div class="col-lg-12 mt-4 mb-5 text-center">
    I’ve been building unique digital products, platforms, and experiences for a year and freelancing for 1 year.
    </div>
-    <div class="col-lg-6 col-md-6">
-     <img src="images/about-img.jpg" class="img-fluid">
+    <div class="col-lg-6 col-md-6 animate__animated animate__fadeInLeft">
+     <img src="images/prog.jpg" class="img-fluid">
     </div>
 
-   <div class="col-lg-6 col-md-6 col-sm-12 mt-3">
-     <p style="font-weight: 40px; font-size: 25px;">I Am A Self Taught Full-Stack Web Developer</p>
+   <div class="col-lg-6 col-md-6 col-sm-12 mt-3 animate__animated animate__fadeInRight">
+     <p style="font-weight: 40px; font-size: 25px;">I Am A Self Taught Full-Stack Web Developer and Graphics Designer</p>
      <i style="font-weight:bold; font-size: 20px; color:gray;">A dream does not become reality through magic; it takes sweat, determination, and hard work</i>
-     <p class="px-1 py-1 mt-3" style="font-size: 18px;">Hello! My name is Franklin Raphael Igboekwulusi, i am a fullstack web developer. 
+     <p class="px-1 py-1 mt-3" style="font-size: 18px ">Hello! My name is Franklin Raphael Igboekwulusi, i am a fullstack web developer. 
        I make use of HTML, CSS, JAVASCRIPT, JQUERY, and BOOTSTRAP for frontend development, 
        i mean where they are needed, i make use of DJANGO for my backend. With the mentioned languages 
        i have built real world projects as well as self projects for educational purposes. 
@@ -127,11 +127,12 @@
    </div>
   </div>
  </div>
-
+</section>
  <!-- ABOUT SECTION ENDS -->
 
- <!-- SERVICES SECTION -->
 
+ <!-- SERVICES SECTION -->
+<section id="services">
  <div class="container">
   <div class="text-center mt-5 animate__animated animate__fadeInDown" style="font-size:40px; font-weight: bold; color: #028a8a;">MY SERVICES</div>
  <div class="container-fluid padding">
@@ -140,37 +141,99 @@
     <div class="text-center mb-3" style="font-size: 15px; font-weight: bold;">
       GRAPHICS DESIGN
       </div>
-      <img src="images/about-img.jpg" class="img-fluid mb-2">
-    all the problems the projects has with the use of my tools and languages. 
-    I enjoy solving problems and providing value and i would love to work with you.</p>
+      <img src="images/graphics.png" class="img-fluid mb-2" style="width: 420px;">
+     the problems the projects has with the use of my tools and languages. 
+    I enjoy solving problems </p>
      </div>
      <div class="col-lg-4 col-md-6 col-sm-12 mt-3 animate__animated animate__fadeInUp animate__delay-1s">
       <div class="text-center mb-3" style="font-size: 15px; font-weight: bold;">
         WEB DEVELOPMENT
         </div>
-        <img src="images/about-img.jpg" class="img-fluid mb-2">
+        <img src="images/web_dev.jpg" class="img-fluid mb-2">
       all the problems the projects has with the use of my tools and languages. 
-      I enjoy solving problems and providing value and i would love to work with you.</p>
+      I enjoy solving problems </p>
        </div>
        <div class="col-lg-4 col-md-6 col-sm-12 mt-3 animate__animated animate__fadeInUp animate__delay-1s">
         <div class="text-center mb-3" style="font-size: 15px; font-weight: bold;">
           APPLICATION DEVELOPMENT
           </div>
-          <img src="images/about-img.jpg" class="img-fluid mb-2">
+          <img src="images/app.jpg" class="img-fluid mb-2">
         all the problems the projects has with the use of my tools and languages. 
         I enjoy solving problems and providing value and i would love to work with you.</p>
          </div>
      </div>
      </div>
-
 </div>
+</section>
 <!-- SERVICES SECTION ENDS -->
 
-<div class="container-fluid row center">
- <img src="images/web2.png" style="width: 100px;" class="img-fluid">
- </div>
 
- <!-- BACKGROUND IMAGE ENDS-->
+ <!-- WORKS SECTION  -->
+ <section id="services">
+  <div class="container">
+   <div class="text-center my-5 animate__animated animate__fadeInLeft" style="font-size:40px; font-weight: bold; color: #028a8a;">MY WORKS</div>
+   <div class="row animate__animated animate__fadeInRight">
+    
+   <!-- <div class="container-fluid padding">
+    <div class="row padding mb-4 mt-4">
+      <div class="col-4"></div>
+      <div id="filters" class="btn_filter col-lg-3 col-md-3 col-sm-3 col-xs-3 text-center animate__animated animate__fadeInRight">
+        <button type="button" data-filter="*" class="btn is-checked btn-outline-success mt-2">All</button>
+        <button type="button" data-filter=".Web" class="btn btn-outline-success mt-2">Web</button>
+        <button type="button" data-filter=".App" class="btn btn-outline-success mt-2">App</button>
+        <button type="button" data-filter=".Graphics" class="btn btn-outline-success mt-2">Graphics</button>
+      </div>
+      </div>
+    </div> -->
+
+    <div class="col-lg-4 col-md-6 col-sm-12" style="width: 200px;">
+      <img src="images/charlie.jpg" class="img-fluid mb-2">
+    </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="width: 200px;">
+      <img src="images/obi (2).jpg" class="img-fluid mb-2">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="width: 200px;">
+      <img src="images/char.png" class="img-fluid mb-2">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="width: 200px;">
+        <img src="images/buzor.jpg" class="img-fluid mb-2">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="width: 200px;">
+        <img src="images/GERALD2.png" class="img-fluid mb-2">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="width: 200px;">
+        <img src="images/mion.jpg" class="img-fluid mb-2">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="width: 200px;">
+        <img src="images/ebu.jpg" class="img-fluid mb-2">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="width: 200px;">
+        <img src="images/cam.jpg" class="img-fluid mb-2">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12" style="width: 200px;">
+        <img src="images/srs.jpg" class="img-fluid mb-2">
+      </div>
+     </div>
+     </div>
+     </section>
+  <!-- WORKS SECTION ENDS -->
+
+
+   <!-- CONTACTS SECTION  -->
+ <section id="services">
+  <div class="container">
+   <div class="text-center my-5 animate__animated animate__fadeInLeft" style="font-size:40px; font-weight: bold; color: #028a8a;">CONTACTS</div>
+   <div class="row animate__animated animate__fadeInRight">
+    
+     </div>
+     </div>
+     </section>
+  <!-- CONTACTS SECTION ENDS -->
+
+
+  <div class="container-fluid row center">
+    <img src="images/web2.png" style="width: 100px;" class="img-fluid">
+    </div>
 
       <!-- JavaScript Bundle with Popper.js -->
       <script
@@ -178,11 +241,15 @@
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" 
-integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous">
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
-integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous">
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" 
-integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="js/isotope.min.js"></script>
 <!-- <script src="libs/wow.min.js"></script> -->
 
 <script type="text/javascript" src="js/main.js"></script>
