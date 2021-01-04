@@ -6,10 +6,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" 
     integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./libs/slick.css">
+  <link rel="stylesheet" type="text/css" href="./libs/slick-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" 
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+     integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
@@ -105,18 +107,18 @@
  <!-- ABOUT SECTION -->
  <section id="about">
  <div class="container">
-  <div class="text-center mt-5 wow fadeInDown" data-wow-duration="0.7s" data-wow-delay="0.5s" style="font-size:45px; font-weight: bold; color: #028a8a;">ABOUT ME</div>
+  <div class="text-center mt-5" style="font-size:45px; font-weight: bold; color: #028a8a;">ABOUT ME</div>
  
   <div class="container-fluid padding">
   <div class="row padding">
-   <div class="col-lg-12 mt-4 mb-5 text-center">
+   <div class="col-lg-12 mt-4 mb-5 text-center wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.7s">
    I’ve been building unique digital products, platforms, and experiences for a year and freelancing for 1 year.
    </div>
-    <div class="col-lg-6 col-md-6 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="0.7s" data-wow-delay="0.7s">
      <img src="images/prog.jpg" class="img-fluid">
     </div>
 
-   <div class="col-lg-6 col-md-6 col-sm-12 mt-3 wow fadeInRight"  data-wow-duration="1s" data-wow-delay="1s">
+   <div class="col-lg-6 col-md-6 col-sm-12 mt-3 wow fadeInUp"  data-wow-duration="0.7s" data-wow-delay="0.7s">
      <p style="font-weight: 40px; font-size: 25px;">I Am A Self Taught Full-Stack Web Developer and Graphics Designer</p>
      <i style="font-weight:bold; font-size: 20px; color:gray;">A dream does not become reality through magic; it takes sweat, determination, and hard work</i>
      <p class="px-1 py-1 mt-3" style="font-size: 18px ">Hello! My name is Franklin Raphael Igboekwulusi, i am a fullstack web developer. 
@@ -135,50 +137,58 @@
 
 
  <!-- SERVICES SECTION -->
-<section id="services">
- <div class="container">
-  <div class="text-center mt-5 wow fadeInDown" style="font-size:40px; font-weight: bold; color: #028a8a;" data-wow-duration="0.7s" data-wow-delay="0.5s">MY SERVICES</div>
- <div class="container-fluid padding">
-  <div class="row padding" data-wow-duration="1s" data-wow-delay="1s">
-   <div class="col-lg-4 col-md-6 col-sm-12 mt-3 wow BounceInUp" >
-    <div class="text-center mb-3" style="font-size: 15px; font-weight: bold;">
-      GRAPHICS DESIGN
-      </div>
-      <img src="images/graphics.png" class="img-fluid mb-2" style="width: 420px;">
-     the problems the projects has with the use of my tools and languages. 
-    I enjoy solving problems </p>
-     </div>
-     <div class="col-lg-4 col-md-6 col-sm-12 mt-3 wow BounceInUp">
-      <div class="text-center mb-3" style="font-size: 15px; font-weight: bold;">
-        WEB DEVELOPMENT
-        </div>
-        <img src="images/web_dev.jpg" class="img-fluid mb-2">
-      all the problems the projects has with the use of my tools and languages. 
-      I enjoy solving problems </p>
+ <section id="services">
+    <div class="container">
+      <div class="text-center my-5" style="font-size:45px; font-weight: bold; color: #028a8a;">MY SERVICES</div>
+      <div class="container-fluid padding">
+        <div class="row padding">
+         <div class="col-lg-4 col-md-6 col-sm-12 mt-3 wow bounceInUp">
+          <div class="text-center mb-4" style="font-size: 15px; font-weight: bold;">
+            WEB DEVELOPMENT
+            </div>
+            <img src="images/web_dev.jpg" class="img-fluid mb-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis possimus quaerat mollitia, 
+            non similique optio nobis voluptates autem quam..</p>
+           </div>
+
+             <div class="col-lg-4 col-md-6 col-sm-12 mt-3 wow bounceInUp">
+              <div class="text-center mb-4" style="font-size: 15px; font-weight: bold;">
+                GRAPHICS DESIGN
+                </div>
+                <img src="images/graphics.jpg " style="height: 230px; width: 1000px;" class="img-fluid mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt perspiciatis possimus quaerat mollitia, 
+              non similique optio nobis voluptates autem quam..</p>
+               </div>
+
+                 <div class="col-lg-4 col-md-6 col-sm-12 mt-3 wow bounceInUp">
+                  <div class="text-center mb-4" style="font-size: 15px; font-weight: bold;">
+                    APP DEVELOPMENT
+                    </div>
+                    <img src="images/app.jpg" class="img-fluid mb-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quod autem quo fugiat 
+                  corporis harum est sapiente, ducimus eaque vel.</p>
+                   </div>
        </div>
-       <div class="col-lg-4 col-md-6 col-sm-12 mt-3 wow BounceInUp">
-        <div class="text-center mb-3" style="font-size: 15px; font-weight: bold;">
-          APPLICATION DEVELOPMENT
-          </div>
-          <img src="images/app.jpg" class="img-fluid mb-2">
-        all the problems the projects has with the use of my tools and languages. 
-        I enjoy solving problems and providing value and i would love to work with you.</p>
-         </div>
      </div>
-     </div>
-</div>
+    </div>
 </section>
+ 
+
 <!-- SERVICES SECTION ENDS -->
 
 
  <!-- WORKS SECTION  -->
  <section id="works">
   <div class="container">
-   <div class="text-center my-5 wow slideInLeft" data-wow-duration="0.7s" data-wow-delay="0.5s"  style="font-size:40px; font-weight: bold; color: #028a8a;">SOME OF MY WORKS</div>
-   <div class="row wow slideInRight" data-wow-duration="1s" data-wow-delay="1s">
+   <div class="text-center my-5"  style="font-size:40px; font-weight: bold; color: #028a8a;">SOME OF MY WORKS</div>
+   <div class="row">
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
         <img src="images/buzor.jpg" class="img-fluid mb-2" style="width: 200px;">
         <img src="images/ebu.jpg" class="img-fluid mb-2" style="width: 200px;">
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
+        <img src="images/tina.jpg" class="img-fluid mb-2" style="width: 200px;">
+        <img src="images/reunion.png" class="img-fluid mb-2" style="width: 200px;">
       </div>
       <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
         <img src="images/cam.jpg" class="img-fluid mb-2" style="width: 200px;">
@@ -193,7 +203,7 @@
    <!-- CONTACTS SECTION  -->
  <section id="contacts">
   <div class="container text-center">
-   <div class="text-center my-5 wow fadeInLeft" data-wow-duration="0.7s" data-wow-delay="0.5s"  style="font-size:40px; font-weight: bold; color: #028a8a;">CONTACTS</div>
+   <div class="text-center my-5"  style="font-size:40px; font-weight: bold; color: #028a8a;">CONTACTS</div>
    <div class="row wow fadeInRight">
     
           <div class="col-lg-6 col-sm-12 col-md-6">
@@ -221,12 +231,9 @@
   <!-- CONTACTS SECTION ENDS -->
 
 
-  <div class="container-fluid wow bounceInUp" data-wow-duration="0.5s" data-wow-delay="0.7s" > 
+  <div class="container-fluid" > 
     <div class="row">
-    <div class="col-4"></div>
-    <div class="col-4">
-      <h3 class="mt-4" style="font-weight: bold; color:#028a8a">Site is still Under Construction</h3>
-    </div>
+      <h3 class="mt-4 col-12 text-center" style="font-weight: bold; color:#028a8a">Site is still Under Construction</h3>
     </div>
     </div>
 
@@ -239,13 +246,12 @@
 integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous">
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
-integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous">
-</script>
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" 
 integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous">
 </script>
-<script type="text/javascript" src="js/isotope.min.js"></script>
-<!-- <script src="libs/wow.min.js"></script> -->
+
+<script src="./js/slick.min.js" type="text/javascript" charset="utf-8"></script>
 
 <script type="text/javascript" src="js/main.js"></script>
               <script>

@@ -1,13 +1,6 @@
 // $(document).ready(function(){
-
-//     var $grid = $(".grid").isotope({
-//         itemSelector:".grid-item",
-//         layoutMode: "fitRows"
-//     });
-
-//     $(".btn_filter").on("click", "button", function(){
-//         var filterValue = $(this).attr('data-filter');
-//         $grid.isotope({filter:filterValue})
+//     $('.navbar-nav nav-item a').on('click', function(e){
+//         console.log(this.hash);
 //     })
-
+    
 // });

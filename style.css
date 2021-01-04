@@ -2,7 +2,10 @@ html, body{
     width: 100%;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    
 }
+
 .container-bg{
     position: absolute;
     left: 0;
@@ -44,6 +47,12 @@ html, body{
 
 #intro .carousel-caption{
     text-align: center;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
 /* 
 #webimg{
