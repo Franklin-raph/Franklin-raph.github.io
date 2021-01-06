@@ -8,6 +8,5 @@ $(document).ready(function(){
                 scrollTop: $(hash).offset().Top
             }, 800);
         }
-    })
-    
+    }) 
 });
