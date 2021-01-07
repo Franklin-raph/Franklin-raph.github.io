@@ -5,12 +5,33 @@ html, body{
     scroll-behavior: smooth;
     
 }
+#bg-btn{
+    border-radius: 0px;
+    border-color: #028a8a;
+    color: #fff;
+    font-weight:600;
+    border-width: medium;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.5rem;
+}
+
+#bg-btn:hover{
+    color:#ffffff;
+    background-color:#028a8a;
+}
 
 a{
     text-decoration: none;
     color: #028a8a;
     font-weight: bold;
 }
+.navbar{
+    background-color:rgb(2, 138, 138)
+}
+
+/* .navbar-dark .navbar-nav .nav-link.active{
+    background-color: red;
+} */
 
 .container-bg{
     position: absolute;
