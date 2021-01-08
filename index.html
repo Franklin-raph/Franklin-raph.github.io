@@ -6,8 +6,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" 
     integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./libs/slick.css">
-  <link rel="stylesheet" type="text/css" href="./libs/slick-theme.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" 
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
@@ -19,6 +17,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     
     <title>Franklin Raphael | Portfolio</title>
+
 </head>
 <body data-spy="scroll" data-target="#navbarResponsive">
 
@@ -51,7 +50,7 @@
      </ul>
    </div>
  </div>
-   </nav>
+ </nav>
  <!-- NAVBAR ENDS-->
 
 
@@ -70,7 +69,8 @@
          <h5 class="text-center mb-5 display-4 wow fadeInDown" data-wow-delay="0.1s" style="font-weight: bold;">Hello! I am Franklin Raphael</h5>
          <p class="text-center mb-5 wow fadeInUp" data-wow-delay="0.9s">I am a fullstack web developer with alot of practical knowlege in web development from real world projects and side 
            projects which helped me grow my skills in HTML, CSS, JAVASCRIPT, PYTHON, DJANGO, JQUERY, BOOTSTRAP</p>
-           <button class="btn btn-outline wow fadeInUp" data-wow-delay="1s" id="bg-btn">Read More</button>
+           <a class="btn btn-outline wow fadeInUp bg-btn" data-wow-delay="1s" href="https://franklin-raph.github.io/#about">Read More</a>
+           
        </div>
      </div>
      <div class="carousel-item">
@@ -79,7 +79,7 @@
          <h5 class="text-center mb-5 display-4 wow fadeInDown" data-wow-delay="0.7s" style="font-weight: bold;">Let My Creativity Match Yours</h5>
          <p class="text-center mb-5 wow fadeInUp" data-wow-delay="0.9s">I am very good at breaking down complex ideas of clients or my peers to help us 
            achieve a common goal. Come let's work together to reach your goal</p>
-           <button class="btn btn-outline wow fadeInUp" data-wow-delay="1s" id="bg-btn">Read More</button>
+           <a class="btn btn-outline wow fadeInUp bg-btn" data-wow-delay="1s" href="https://franklin-raph.github.io/#about">Read More</a>
        </div>
      </div>
      <div class="carousel-item">
@@ -88,7 +88,7 @@
          <h5 class="text-center mb-5 display-4 wow fadeInDown" data-wow-delay="0.7s" style="font-weight: bold;">Do You Want To Build A Website?</h5>
          <p class="text-center mb-5 wow fadeInUp" data-wow-delay="0.9s">I am qualified to build most websites you see online and expertly design your user interface to give your website vistors comfort in using your platform.
             It also helps that i am a full stack developer, which basically means that i can make a full website for you without the help of another developer(two in one).</p>
-            <button class="btn btn-outline wow fadeInUp" data-wow-delay="1s" id="bg-btn">Read More</button>
+            <a class="btn btn-outline wow fadeInUp bg-btn" data-wow-delay="1s" href="https://franklin-raph.github.io/#about">Read More</a>
        </div>
      </div>
      </div>
@@ -173,7 +173,6 @@
     </div>
 </section>
  
-
 <!-- SERVICES SECTION ENDS -->
 
 
@@ -218,8 +217,6 @@
     </div>
   </div>
 </figure>
-
-
   
   <!-- FIXED BACKGROUND IMAGE ENDS-->
 
@@ -252,6 +249,12 @@
      </div>
      </div>
      </section>
+
+    <a id="back2Top" title="Back to top" href="#">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+     
+
   <!-- CONTACTS SECTION ENDS -->
 
 
@@ -279,11 +282,8 @@ integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPP
 
 <script type="text/javascript" src="js/main.js"></script>
               <script>
-              new WOW().init();
-
               $(window).on('load', function(){
-
-new WOW().init(); 
+              new WOW().init(); 
 });
               </script>
 </body>
