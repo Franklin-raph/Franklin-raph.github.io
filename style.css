@@ -7,6 +7,8 @@ html, body{
 }
 body{
     position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .bg-btn{
@@ -133,6 +135,11 @@ a{
 #back2Top:hover {
     background-color: #005252;
     color: rgb(255, 255, 255);
+}
+
+.contact{
+    background-color: rgb(169, 199, 196);
+    
 }
 
 /*============ BOOTSTRAP BREAK POINTS:
