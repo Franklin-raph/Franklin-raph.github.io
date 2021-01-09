@@ -19,10 +19,10 @@
     <title>Franklin Raphael | Portfolio</title>
 
 </head>
-<body data-spy="scroll" data-target="#navbarResponsive">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <!-- NAVBAR -->
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark" data-bs-target="#navbar-example">
      <div class="container">
    <a class="navbar-brand mx-3" style="font-weight: bolder; font-size: 20px;" href="https://franklin-raph.github.io/#intro"><strong>Franklin Raphael</strong></a>
    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive">
@@ -33,28 +33,30 @@
    <div class="collapse navbar-collapse mx-3" id="navbarResponsive">
      <ul class="navbar-nav ml-auto" style="font-weight: bolder;">
        <li class="nav-item">
-         <a class="nav-link active mx-2" href="https://franklin-raph.github.io/#intro">HOME</a>
+         <a class="nav-link mx-2" data-toggle="collapse" data-target=".navbar-collapse.show" href="https://franklin-raph.github.io/#intro">HOME</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link mx-2" href="https://franklin-raph.github.io/#about">ABOUT</a>
+         <a class="nav-link mx-2" data-toggle="collapse" data-target=".navbar-collapse.show" href="https://franklin-raph.github.io/#about">ABOUT</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link mx-2" href="https://franklin-raph.github.io/#services">SERVICES</a>
+         <a class="nav-link mx-2" data-toggle="collapse" data-target=".navbar-collapse.show" href="https://franklin-raph.github.io/#services">SERVICES</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link mx-2" href="https://franklin-raph.github.io/#works">WORKS</a>
+         <a class="nav-link mx-2" data-toggle="collapse" data-target=".navbar-collapse.show" href="https://franklin-raph.github.io/#works">WORKS</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link mx-2" href="https://franklin-raph.github.io/#contacts">CONTACT</a>
+         <a class="nav-link mx-2" data-toggle="collapse" data-target=".navbar-collapse.show" href="https://franklin-raph.github.io/#contacts">CONTACT</a>
        </li>
      </ul>
    </div>
  </div>
  </nav>
+
  <!-- NAVBAR ENDS-->
 
 
  <!-- BACKGROUND IMAGE -->
+ <div data-bs-spy="scroll" data-bs-target="#navbar-example" data-bs-offset="0" tabindex="0">
  <section id="intro">
  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
    <ol class="carousel-indicators">
@@ -263,6 +265,7 @@
       <h3 class="mt-4 col-12 text-center" style="font-weight: bold; color:#028a8a">Site is still Under Construction</h3>
     </div>
     </div>
+  </div>
 
       <!-- JavaScript Bundle with Popper.js -->
       <script
