@@ -4,6 +4,7 @@ html, body{
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth; 
     
+    
 }
 body{
     position: relative;
@@ -137,10 +138,14 @@ a{
     color: rgb(255, 255, 255);
 }
 
-.contact{
-    background-color: rgb(169, 199, 196);
-    
-}
+
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--bs-light);
+    border-radius: .3rem;  
+    background-color: rgb(169, 199, 196)!important;
+  }
 
 /*============ BOOTSTRAP BREAK POINTS:
 
