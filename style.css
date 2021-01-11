@@ -35,6 +35,10 @@ a{
     background-color:rgb(2, 138, 138)
 }
 
+.navbar #navbarResponsive a{
+    letter-spacing: .1rem;
+ }
+
 /* .navbar-dark .navbar-nav .nav-link.active{
     background-color: rgba(0, 0, 0, 0.575);
 } */
@@ -86,7 +90,6 @@ h3 {
     font-weight: bold; 
     color: #028a8a;
     margin: 3rem 0rem 0rem 0rem;
-    
 }
 /* HEADER TEXTS ENDS*/
 
@@ -99,6 +102,16 @@ h3 {
 #intro .carousel-caption h5{
     text-align: center;
     text-shadow: 2px 2px 10px #000000;
+    font-weight: bold;
+}
+
+#intro .carousel-caption p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#intro .carousel-caption{
+    top: 30%;
 }
 /* INTRO SECTION ENDS */
 
@@ -111,7 +124,7 @@ h3 {
 
 #about i{
     font-weight:bold; 
-    font-size: 20px; 
+    font-size: 16px; 
     color:#028a8a;
 }
 
@@ -136,6 +149,11 @@ h3 {
 
 #services #serv-sect{
     padding: 10px;
+}
+
+#services #serv-head {
+    font-size: 23px; 
+    font-weight: bold;
 }
 /* SERVICES SECTION ENDS*/
 
@@ -227,8 +245,7 @@ figure .hero-text{
 #line{
     height: 10px; 
     width: 120px;
-    margin: 2rem 0rem 2rem 0rem;
-    border-radius: 15%;
+    margin: 1rem 0rem 1rem 0rem;
 }
 
 #back2Top {
@@ -258,6 +275,75 @@ figure .hero-text{
     background-color: #005252;
     color: rgb(255, 255, 255);
 }
+
+@media (max-width: 576px) { 
+
+    h3 {
+        font-size:25px; 
+        font-weight: bold; 
+        color: #028a8a;
+        margin: 1.5rem 0rem 0rem 0rem;
+    }
+
+    #line{
+        height: 5px; 
+        width: 60px;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+
+    #intro .carousel-caption h5{
+        text-align: center;
+        text-shadow: 2px 2px 10px #000000;
+        font-size: 30px;
+    }
+    #intro .carousel-caption p{
+        text-align: center;
+        font-size: 18px;
+        top: 30%;
+    }
+
+    #intro #carouselExampleCaptions .carousel-indicators{
+        display: none;
+    }
+
+    #about p{
+        font-weight: 40px; 
+        font-size: 15px;
+    }
+    
+    #about i{
+        font-weight:bold; 
+        font-size: 12px; 
+        color:#028a8a;
+    }
+    
+    #about .text{
+        font-size: 12px;
+    }
+    #services #serv-head {
+        font-size: 18px; 
+    }
+    #services p{
+        font-size: 15px;
+    }
+
+    figure .hero-text #fixed-text{
+        font-size: 15px;
+    }
+
+    #contacts .jumbotron #icon {
+        font-size: 30px;
+    }
+
+    #contacts .jumbotron h5{
+        font-size: 18px;
+    }
+
+    #contacts .jumbotron #contacts-icon{
+        font-size: 1.3rem;
+    }
+
+ }
 
 
 /*============ BOOTSTRAP BREAK POINTS:
