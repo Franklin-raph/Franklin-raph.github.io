@@ -3,9 +3,8 @@ html, body{
     height: 100%;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth; 
-    
-    
 }
+
 body{
     position: relative;
     overflow-x: hidden;
@@ -79,6 +78,20 @@ a{
     background-repeat: no-repeat;
 }
 
+
+
+/* HEADER TEXTS */
+h3 {
+    font-size:40px; 
+    font-weight: bold; 
+    color: #028a8a;
+    margin: 3rem 0rem 0rem 0rem;
+    
+}
+/* HEADER TEXTS ENDS*/
+
+
+/* INTRO SECTION */
 #intro .carousel-caption{
     text-align: center;
 }
@@ -87,14 +100,113 @@ a{
     text-align: center;
     text-shadow: 2px 2px 10px #000000;
 }
+/* INTRO SECTION ENDS */
 
-#owl-demo .item img{
-    display: block;
-    width: 100%;
-    height: auto;
+
+/* ABOUT SECTION */
+#about p{
+    font-weight: 40px; 
+    font-size: 25px;
 }
 
-.fixed-wrap{
+#about i{
+    font-weight:bold; 
+    font-size: 20px; 
+    color:#028a8a;
+}
+
+#about .text{
+    font-size: 18px;
+}
+/* ABOUT SECTION ENDS */
+
+
+/* SERVICES SECTION */
+#services #bg-img{
+    background-color: rgba(2, 138, 138, .8);
+    color: #fff;
+    z-index: -1;
+}
+
+#services #imgs{
+    width: 500px;
+    height: 250px;
+    margin: 0rem 0rem 1.5rem 0rem;
+}
+
+#services #serv-sect{
+    padding: 10px;
+}
+/* SERVICES SECTION ENDS*/
+
+
+/* WORKS SECTION */
+#works #works-img img{
+    width: 150px;
+}
+/* WORKS SECTION ENDS */
+
+
+/* CONTACTS SECTION */
+.jumbotron {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+    /* background-color: var(--bs-light); */
+    border-radius: .3rem;  
+    background-color: #028a8a!important;
+    color: #fff;
+    border-radius: 0%;
+    /* height: 55%; */
+  }
+
+  .jumbotron a{
+    color: #fff;
+  }
+
+  .jumbotron a:hover{
+    text-decoration: underline;
+  }
+
+ #contacts img {
+     color: #028a8a!important;
+ }
+
+ #contacts .jumbotron #icon {
+    color: #fff;
+}
+
+#contacts .jumbotron h5{
+    font-weight: lighter;
+}
+
+#contacts .jumbotron p{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#contacts .jumbotron h6{
+    margin: 20px 0px 25px 0px;
+}
+
+#contacts .jumbotron #bottom-nav a{
+    font-weight: lighter;
+}
+
+#contacts .jumbotron #contacts-icon{
+    font-size: 2rem;
+}
+
+.fa-facebook-square:hover,
+.fa-whatsapp:hover,
+.fa-instagram:hover,
+.fa-linkedin-in:hover{
+    color: #6e9b7d;
+}
+ /* CONTACTS SECTION ENDS */
+
+
+ /* FIXED IMAGE */
+ .fixed-wrap{
     height: 50%;
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.726)),
@@ -103,13 +215,21 @@ a{
     background-size: cover;
 }
 
-.hero-text{
+figure .hero-text{
     color: rgb(255, 255, 255);
-    padding-top: 150px;
-    
+    margin-top: 13%;
+    text-align: center;
     font-weight: bold;
 }
+/* FIXED IMAGE ENDS */
 
+
+#line{
+    height: 10px; 
+    width: 120px;
+    margin: 2rem 0rem 2rem 0rem;
+    border-radius: 15%;
+}
 
 #back2Top {
     width: 30px;
@@ -124,7 +244,7 @@ a{
     -ms-transform: rotate(270deg);
     transform: rotate(270deg); */
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     right: 20px;
     background-color: #028a8a;
     color: rgb(255, 255, 255);
@@ -133,45 +253,13 @@ a{
     text-decoration: none;
     border-radius: 3px;
 }
+
 #back2Top:hover {
     background-color: #005252;
     color: rgb(255, 255, 255);
 }
 
 
-.jumbotron {
-    padding: 4rem 2rem;
-    margin-bottom: 2rem;
-    /* background-color: var(--bs-light); */
-    border-radius: .3rem;  
-    background-color: #028a8a!important;
-    color: #fff;
-    border-radius: 0%;
-  }
-
-  .jumbotron a{
-    color: #fff;
-  }
-
-  .jumbotron a:hover{
-    text-decoration: underline;
-  }
-
-  #contact-icon{
-      font-size: 5rem;
-  }
-
-  .line-through{
-      width: 100%!important;
-  }
-
-  /* #underline{
-      width: 3rem;
-      height: .2rem;
-      margin: 0 auto 2rem;
-      background-color:#028a8a
-  } */
- 
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
