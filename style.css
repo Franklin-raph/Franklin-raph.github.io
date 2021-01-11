@@ -155,6 +155,10 @@ h3 {
     font-size: 23px; 
     font-weight: bold;
 }
+
+#services #bg-img p{
+    font-size: 18px;
+}
 /* SERVICES SECTION ENDS*/
 
 
@@ -313,17 +317,17 @@ figure .hero-text{
     
     #about i{
         font-weight:bold; 
-        font-size: 12px; 
+        font-size: 15px; 
         color:#028a8a;
     }
     
     #about .text{
-        font-size: 12px;
+        font-size: 15px;
     }
     #services #serv-head {
         font-size: 18px; 
     }
-    #services p{
+    #services #bg-img p{
         font-size: 15px;
     }
 
