@@ -303,12 +303,16 @@ figure .hero-text{
     }
     #intro .carousel-caption p{
         text-align: center;
-        font-size: 18px;
+        font-size: 15px;
         top: 30%;
     }
 
     #intro #carouselExampleCaptions .carousel-indicators{
         display: none;
+    }
+    
+    #rd-mo{
+        font-size: 12px;
     }
 
     #about p{
