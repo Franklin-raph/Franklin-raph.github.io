@@ -135,9 +135,7 @@ h3 {
 
 
 /* SERVICES SECTION */
-.card{
-    width: 25rem;
-}
+
 
 #services #bg-img{
     color: rgb(0, 0, 0);
@@ -330,7 +328,6 @@ figure .hero-text{
     #services #serv-head {
         font-size: 18px; 
     }
-    
     #services #bg-img p{
         font-size: 15px;
     }
