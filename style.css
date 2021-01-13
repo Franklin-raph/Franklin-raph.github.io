@@ -135,6 +135,10 @@ h3 {
 
 
 /* SERVICES SECTION */
+.card{
+    width: 25rem;
+}
+
 #services #bg-img{
     color: rgb(0, 0, 0);
     z-index: -1;
