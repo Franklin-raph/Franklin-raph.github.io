@@ -361,6 +361,13 @@ figure .hero-text{
 
  }
 
+ @media (min-width: 768px) {
+    #intro #carouselExampleCaptions .carousel-indicators{
+        display: none;
+    }
+
+ }
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
