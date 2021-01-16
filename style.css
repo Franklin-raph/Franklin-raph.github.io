@@ -152,8 +152,13 @@ h3 {
     margin: 0rem 0rem 1.5rem 0rem;
 }
 
+.card{
+    background-color: #028a8a!important;
+    color: #fff!important;
+}
+
 #services #serv-sect{
-    padding: 10px;
+    padding: 50px;
 }
 
 #services #serv-head {
@@ -237,7 +242,7 @@ h3 {
     height: 50%;
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.726)),
-    url('images/fixed.jpeg');
+    url('images/about-img.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -343,6 +348,10 @@ figure .hero-text{
         font-size: 15px;
     }
 
+    #services #serv-sect{
+        padding: 70px;
+    }
+
     figure .hero-text #fixed-text{
         font-size: 15px;
     }
@@ -364,6 +373,10 @@ figure .hero-text{
  @media (max-width: 992px) {
     #intro #carouselExampleCaptions .carousel-indicators{
         display: none;
+    }
+
+    #services #serv-sect{
+        padding: 60px;
     }
 
  }
