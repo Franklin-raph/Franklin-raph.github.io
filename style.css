@@ -242,7 +242,7 @@ h3 {
     height: 50%;
     background-image:
     linear-gradient(rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.726)),
-    url('images/about-img.jpg');
+    url('images/gallery_img-03.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -258,7 +258,7 @@ figure .hero-text{
 
 #line{
     height: 5px; 
-    width: 120px;
+    width: 150px;
     margin: 1rem 0rem 1rem 0rem;
 }
 
